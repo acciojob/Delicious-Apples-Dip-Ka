@@ -13,10 +13,13 @@
         /* Additional CSS styles */
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
         }
 
         .product {
             display: flex;
+            margin: 20px;
         }
 
         .product__photo {
@@ -120,6 +123,21 @@
             margin-top: 20px;
             color: #333;
         }
+
+        .add-to-cart {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .add-to-cart button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
     </style>
 </head>
 
@@ -173,6 +191,9 @@
             <div class="description">
                 <h3>BENEFITS</h3>
                 <!-- Add benefits description here -->
+            </div>
+            <div class="add-to-cart">
+                <button>ADD TO CART</button>
             </div>
         </div>
     </section>
